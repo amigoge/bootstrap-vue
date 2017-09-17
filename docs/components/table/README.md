@@ -324,7 +324,7 @@ event:
 ```html
 <template slot="actions" scope="cell">
   <!-- We use click.stop here to prevent a 'row-clicked' event from also happening -->
-  <b-btn size="sm" @click.stop="details(cell.item,cell.index,$event.target)">Details</b-btn>
+  <b-button size="sm" @click.stop="details(cell.item,cell.index,$event.target)">Details</b-button>
 </template>
 ```
 
